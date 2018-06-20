@@ -1,11 +1,5 @@
-# Static table lookup for hostnames.
-# See hosts(5) for details.
-#<ip-address>	<hostname.domain.org>	<hostname>
-127.0.0.1	localhost.localdomain	localhost
-::1		localhost.localdomain	localhost
-127.0.0.1	Arch.localdomain	Arch
-
-# 4chan
+# List of unblocked site
+# 4chan.
 104.16.119.221 boards.4chan.org
 104.16.59.249 i.4cdn.org
 104.16.117.221 4chan.org
@@ -24,7 +18,7 @@
 104.16.58.249 i.4cdn.org
 104.16.60.249 s.4cdn.org
 104.16.62.249 t.4cdn.org
-# Reddit
+# Reddit.
 151.101.129.140 reddit.com
 151.101.129.140 ww.reddit.com
 151.101.129.140 www.reddit.com
@@ -62,7 +56,7 @@
 151.101.129.140 api.reddit.com
 151.101.129.140 e.reddit.com
 
-# Giphy
+# Giphy.
 151.101.193.185 giphy.com
 151.101.193.185 www.giphy.com
 151.101.38.2 media.giphy.com
@@ -77,28 +71,7 @@
 52.202.213.23 developers.giphy.com
 151.101.54.2 developers.giphy.com
 
-# Add this file to your /etc/hosts to block all
-# of the ad sites, porn and general junk on this
-# list, including Google.
-#
-# Fell free to add or subtract sites as necessary.
-#
-# For linux noobs, to add this to /etc/hosts,
-# run the following in the same directory of this
-# file:
-#
-# sudo su
-# cat ips >> /etc/hosts
-#
-# You can delete this file afterwards.
-#
-# To use this on Windows, add it to the end of:
-# C:\Windows\System32\drivers\etc\hosts
-
-
-# Ads, tracking and general junk
-
-#Telkom Speedy / Indihome
+# Telkom Speedy / Indihome.
 0.0.0.0           internet-positif.org
 0.0.0.0           stat01.u-ad.info
 0.0.0.0           cfs.u-ad.info
@@ -108,11 +81,12 @@
 0.0.0.0           cfs2.uzone.id
 0.0.0.0           kendedes.uzone.id
 
-# Kaspersky
+# Kaspersky.
 0.0.0.0           gc.kis.scr.kaspersky-labs.com
 0.0.0.0           ff.kis.scr.kaspersky-labs.com
 0.0.0.0 	  ie.kis.scr.kaspersky-labs.com
 
+# Huge list of blocked site
 0.0.0.0 api.opencandy.com
 0.0.0.0 api.recommendedsw.com
 0.0.0.0 cdn.appround.biz
