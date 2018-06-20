@@ -9,6 +9,7 @@ This file are located on /etc/hosts for MacOS, BSD, and Linux.
 For Linux and MacOS:
 ```
 git clone https://github.com/dankehidayat/Hosts.git
+cd Hosts
 sudo su
 cat host >> /etc/hosts
 ```
