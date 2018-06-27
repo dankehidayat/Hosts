@@ -1,7 +1,14 @@
 # Hosts
 This are a huge list of blocked and unblocked site. This help you to block ads,malware,tracking,etc. This include Google too!!!
 
-P.S: When i say Google too, doesn't mean you can't access Youtube and other Google services. You still can access your Youtube and other Google service.
+## Notes
+You can access youtube and Google sign in stuff. **But** you cannot access Google.com or anything that contain Google.com subdomain. If you use Google.com as your default search, Please find the alternative. 
+Example:
+* Duckduckgo
+* startpage
+* bing
+* yahoo,
+* etc
 
 This file are located on /etc/hosts for MacOS, BSD, and Linux.
 
