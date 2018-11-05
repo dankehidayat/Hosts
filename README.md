@@ -1,25 +1,20 @@
 # Hosts
-This are a huge list of blocked and unblocked site. This help you to block ads,malware,tracking,etc. This include Google too!!!
+This are a huge list of blocked website. The purpose of this list, is to block
+any ads, malware, phishing, etc.
 
-## Notes
-You can access youtube and Google sign in stuff. **But** you cannot access Google.com or anything that contain Google.com subdomain. If you use Google.com as your default search, Please find the alternative. 
-Example:
-* Duckduckgo
-* startpage
-* bing
-* yahoo,
-* etc
+Also there is a few website that I unblock because of _Laughable_ censorship.
 
-This file are located on /etc/hosts for MacOS, BSD, and Linux.
+**Note:** This file are located on /etc/hosts for MacOS, BSD, and Linux.
 
 ## Getting Started
 For Linux and MacOS:
+
 ```
-git clone https://github.com/dankehidayat/Hosts.git
-cd Hosts
-sudo su
-cat host >> /etc/hosts
+$ git clone https://github.com/dankehidayat/Hosts.git
+$ cd Hosts
+$ sudo su
+$ cat host >> /etc/hosts
 ```
 
-For windows, you need to copy the into:
+For windows, you need to copy-paste it into:
 `C:\Windows\System32\drivers\etc`
